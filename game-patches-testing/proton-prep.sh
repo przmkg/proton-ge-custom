@@ -156,6 +156,7 @@
 
     #fix steep fullscreen
     patch -Np1 < ../game-patches-testing/wine-patches/0001-Add-some-semi-stubs-in-user32.patch
+    patch -Np1 < ../game-patches-testing/wine-patches/mhw_hack.patch
 
     ./tools/make_requests
     autoreconf -f
